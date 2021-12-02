@@ -4,9 +4,14 @@ using namespace std;
 
 class runTest
 {
+
     private:
         string name;
     public:
+        runTest(){
+            cout << "Hellow There Rafi!" <<endl;
+        }
+
         void setName(string nam)
         {
             name=nam;
